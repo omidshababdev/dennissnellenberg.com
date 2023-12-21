@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^10.16.16",
+    "gsap": "^3.12.4",
+    "locomotive-scroll": "beta",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "sass": "^1.69.5"
   }
 }
