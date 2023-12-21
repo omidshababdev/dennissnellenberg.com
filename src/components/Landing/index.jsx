@@ -30,10 +30,10 @@ export default function index() {
   }, []);
 
   const animate = () => {
-    if (xPercent < -100) {
+    if (xPercent < -500) {
       xPercent = 0;
     } else if (xPercent > 0) {
-      xPercent = -100;
+      xPercent = -500;
     }
     gsap.set(firstText.current, { x: xPercent });
     gsap.set(secondText.current, { x: xPercent });
