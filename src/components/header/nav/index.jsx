@@ -1,7 +1,7 @@
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import styles from "./style.module.scss";
-import { menuSlide } from "../anim";
+import { menuSlide } from "../animation";
 import Link from "./link";
 import Footer from "./footer";
 import Curve from "./curve";

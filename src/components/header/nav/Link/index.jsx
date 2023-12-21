@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styles from "./style.module.scss";
 import Link from "next/link";
-import { slide, scale } from "../../anim";
+import { slide, scale } from "../../animation";
 
 export default function Index({ data, isActive, setSelectedIndicator }) {
   const { title, href, index } = data;
